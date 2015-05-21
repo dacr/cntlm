@@ -13,6 +13,6 @@ if [ -z "$PASSWORD" ] ; then
   read -s -p "Password:" PASSWORD
 fi
 
-cntlm -f -g -c /defaults.conf -p '$PASSWORD' -u '$USERNAME@$DOMAIN' -l 3128
+cntlm -f -g -c /defaults.conf -p "$PASSWORD" -u "$USERNAME@$DOMAIN" -l 3128
 
 
