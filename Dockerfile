@@ -10,5 +10,6 @@ RUN chmod a+rx start.sh
 
 EXPOSE 3128
 
-CMD /start.sh
+ENTRYPOINT ["/start.sh"]
 
+CMD ["proxy:8080"]
