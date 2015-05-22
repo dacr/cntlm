@@ -1,6 +1,7 @@
 # cntlm docker container
 
 Usages examples : 
+
  * Usage with user interaction to set username, domain and password 
    * `docker run -it --rm --name mycntlm -p 3128 dacr/cntlm`
    * `docker run -it --rm --name mycntlm -p 3128 dacr/cntlm proxy1:8080 proxy2:3128`
